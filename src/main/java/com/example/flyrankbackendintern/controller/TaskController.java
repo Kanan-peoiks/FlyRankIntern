@@ -14,7 +14,7 @@ public class TaskController {
         return "Hello World!";
     }
 
-    @GetMapping("/")
+    @GetMapping("/apiInfo")
     public Map<String, Object> getApiInfo() {
         Map<String, Object> info = new HashMap<>();
         info.put("name", "Task API");
